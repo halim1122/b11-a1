@@ -238,3 +238,72 @@ main {
   margin-top: 24px;
   margin-bottom: 32px;
 }
+/* donate-part */
+.donate{
+  text-align: center;
+}
+.donate p{
+  margin-top: 24px;
+}
+.input{
+  color: black;
+  background-color: white;
+  border: .5px solid rgb(221, 219, 219);
+  border-radius: 16px;
+  padding: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  margin: 32px 12px;
+}
+.input-1{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 32px;
+  background-color: white;
+  border: .5px solid rgb(221, 219, 219);
+  padding:20px 0;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* Subscribe Newsletter */
+.subscribe{
+  background-color: #a5f4d086;
+  padding: 80px 100px;
+  border-radius: 24px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.subscribe .last-btn{
+  display:flex;
+  gap: 0;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe .last-btn input{
+  border: none;
+  padding: 18px 40px;
+  border-radius: 6px 0 0 6px;
+  width: 600px;
+}
+.subscribe .last-btn button{
+  border: none;
+  padding: 17px 34px;
+  border-radius: 0 6px 6px 0;
+  color: white;
+  background-color: #006a50;
+}
+/* footer-part */
+footer{
+  background-color: white;
+  text-align: center;
+}
+footer h2{
+  padding: 50px 160px;
+}
+footer div{
+  justify-content: center;
+  display: flex;
+  gap: 23px;
+  padding: 50px 160px;
+}
