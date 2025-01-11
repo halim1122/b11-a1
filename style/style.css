@@ -222,11 +222,12 @@ main {
 }
 
 /* Recent News-part */
-.para{
+.para {
   color: #0e0e0e7c;
   font-weight: 400;
 }
-.Recent-News{
+
+.Recent-News {
   display: flex;
   background-color: white;
   border-radius: 24px;
@@ -234,18 +235,22 @@ main {
   gap: 32px;
   margin-bottom: 24px;
 }
-.m{
+
+.m {
   margin-top: 24px;
   margin-bottom: 32px;
 }
+
 /* donate-part */
-.donate{
+.donate {
   text-align: center;
 }
-.donate p{
+
+.donate p {
   margin-top: 24px;
 }
-.input{
+
+.input {
   color: black;
   background-color: white;
   border: .5px solid rgb(221, 219, 219);
@@ -255,18 +260,20 @@ main {
   font-weight: bold;
   margin: 32px 12px;
 }
-.input-1{
+
+.input-1 {
   width: 100%;
   text-align: center;
   margin-bottom: 32px;
   background-color: white;
   border: .5px solid rgb(221, 219, 219);
-  padding:20px 0;
+  padding: 20px 0;
   font-size: 20px;
   font-weight: 400;
 }
+
 /* Subscribe Newsletter */
-.subscribe{
+.subscribe {
   background-color: #a5f4d086;
   padding: 80px 100px;
   border-radius: 24px;
@@ -274,36 +281,58 @@ main {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-.subscribe .last-btn{
-  display:flex;
+
+.subscribe .last-btn {
+  display: flex;
   gap: 0;
   align-items: center;
   justify-content: center;
 }
-.subscribe .last-btn input{
+
+.subscribe .last-btn input {
   border: none;
   padding: 18px 40px;
   border-radius: 6px 0 0 6px;
   width: 600px;
 }
-.subscribe .last-btn button{
+
+.subscribe .last-btn button {
   border: none;
   padding: 17px 34px;
   border-radius: 0 6px 6px 0;
   color: white;
   background-color: #006a50;
 }
+
 /* footer-part */
-footer{
+footer {
   background-color: white;
   text-align: center;
 }
-footer h2{
+
+footer h2 {
   padding: 50px 160px;
 }
-footer div{
+
+footer div {
   justify-content: center;
   display: flex;
   gap: 23px;
   padding: 50px 160px;
+}
+/* button-effect-part */
+.button-effect:hover{
+background-color: white;
+color: black;
+border: .5px solid black;
+}
+.subscribe .last-btn button:hover {
+  background-color: white;
+  color: black;
+  border: .5px solid black;
+}
+.button-effect-1:hover{
+  background-color: #006a50;
+  color: white;
+  border: .5px solid #006a50;
 }
