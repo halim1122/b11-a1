@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+.hidn {
+  display: none;
+}
+
 body {
   max-width: 1600px;
   background-color: #f4f4f4;
@@ -29,7 +33,7 @@ header {
   padding: 15px 30px;
   border-radius: 8px;
   border: 1px solid #006a50;
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 600;
 }
 
@@ -52,14 +56,14 @@ main {
 }
 
 .banner-section-1 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 500;
   color: #0e0e0e75;
   margin-bottom: 16px;
 }
 
 .banner-section-2 {
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: bold;
   margin-bottom: 24px;
 }
@@ -68,7 +72,7 @@ main {
   color: white;
   background-color: #006a50;
   border-radius: 8px;
-  font-size: 18px;
+  font-size: 1.25rem;
   font-weight: 500;
   padding: 17px 34px;
   border: none;
@@ -168,7 +172,7 @@ main {
   border: none;
   padding: 11px 20px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 35px;
 }
 
@@ -179,7 +183,7 @@ main {
   border: none;
   padding: 11px 20px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 35px;
 }
 
@@ -190,7 +194,7 @@ main {
   border: none;
   padding: 11px 20px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   margin-top: 35px;
 }
 
@@ -256,7 +260,7 @@ main {
   border: .5px solid rgb(221, 219, 219);
   border-radius: 16px;
   padding: 40px;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: bold;
   margin: 32px 12px;
 }
@@ -268,11 +272,11 @@ main {
   background-color: white;
   border: .5px solid rgb(221, 219, 219);
   padding: 20px 0;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
-/* Subscribe Newsletter */
+/* Subscribe Newsletter-part */
 .subscribe {
   background-color: #a5f4d086;
   padding: 80px 100px;
@@ -320,19 +324,206 @@ footer div {
   gap: 23px;
   padding: 50px 160px;
 }
+
 /* button-effect-part */
-.button-effect:hover{
-background-color: white;
-color: black;
-border: .5px solid black;
+.button-effect:hover {
+  background-color: white;
+  color: black;
+  border: .5px solid black;
 }
+
 .subscribe .last-btn button:hover {
   background-color: white;
   color: black;
   border: .5px solid black;
 }
-.button-effect-1:hover{
+
+.button-effect-1:hover {
   background-color: #006a50;
   color: white;
   border: .5px solid #006a50;
+}
+
+@media screen and (max-width:395px) {
+  /* start header part  */
+  header {
+    padding: 20px 15px;
+  }
+
+  header h2 {
+    font-size: 1.2rem;
+  }
+
+  .header-btn {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: .75rem;
+    font-weight: 600;
+  }
+
+  /* end header part  */
+
+  /* start banner part  */
+  main {
+    margin: 15px;
+  }
+
+  .banner-section {
+    flex-direction: column-reverse;
+    background-color: #C6E4D6;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    margin: 10px 0 20px 0;
+    gap: 10px;
+
+  }
+
+  .banner-section-1 {
+    font-size: 1.1rem;
+  }
+
+  .banner-section-2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  .banner-section-3 {
+    color: white;
+    background-color: #006a50;
+    border-radius: 5px;
+    font-size: .9rem;
+    font-weight: 500;
+    padding: 8px 16px;
+    border: none;
+    margin-bottom: 15px;
+  }
+
+  .banner-section-4 img {
+    width: 300px;
+  }
+
+  /* start pillars part  */
+  .pillars-head {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .pillars {
+    flex-direction: column;
+
+  }
+
+  .pillar {
+    background-color: #ffffff;
+    border: .5px solid rgb(221, 219, 219);
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  /* start The-Vision-of-Future part  */
+  .The-Vision-of-Future h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .The-Vision-of-Future>p {
+    margin: 24px 20px 32px;
+    color: #0e0e0e7c;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 1rem;
+  }
+
+  .visions {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  /* start yunus part  */
+  .yunus {
+    margin-bottom: 20px;
+  }
+
+  .yunus p {
+    text-align: justify;
+  }
+
+  /* start recent news part  */
+
+  .Recent-News {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .recent-0 {
+    text-align: center;
+  }
+
+  .recent-0>img {
+    width: 300px;
+    border-radius: 15px;
+  }
+
+  .recent-btn {
+    text-align: center;
+  }
+
+  /* start donate part  */
+  .donate p {
+    text-align: justify;
+    padding: 0 15px;
+  }
+
+  .input {
+    color: black;
+    background-color: white;
+    border: .5px solid rgb(221, 219, 219);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 10px;
+  }
+
+  /* start subscribe part  */
+
+  .subscribe {
+    margin: 10px 0;
+    padding: 20px 0;
+  }
+
+  .subscribe .last-btn input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px 0 0 6px;
+    width: 600px;
+    margin-left: 20px;
+  }
+
+  .subscribe .last-btn button {
+    border: none;
+    padding: 9px 20px;
+    border-radius: 0 6px 6px 0;
+    color: white;
+    background-color: #006a50;
+    margin-right: 20px;
+  }
+
+  /* start footer part  */
+  footer h2 {
+    font-size: 1.4rem;
+    padding: 10px 15px;
+  }
+
+  footer div {
+    gap: 15px;
+    padding: 10px 15px;
+  }
+
+  /* end footer part  */
 }
